@@ -26,6 +26,9 @@ Route::get('/menu', function () {
     return view('user.menu');
 })->name('user.menu');
 
+Route::get('/cart', function(){
+    return view('user.cart');
+})->name('user.cart');
 
 //admin
 Route::get('/admin',function(){
